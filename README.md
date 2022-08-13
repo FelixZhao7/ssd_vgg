@@ -4,6 +4,7 @@
 - <a href='#datasets'>Datasets</a>
 - <a href='#training-ssd'>Train</a>
 - <a href='#evaluation'>Evaluate</a>
+- <a href='#demo'>demo</a>
 
 
 &nbsp;
@@ -71,5 +72,13 @@ python eval.py
 
 You can specify the parameters listed in the `eval.py` file by flagging them or manually changing them.  
 
+## demo
+- To process a custom set of data
+
+```Shell
+python demo/live.py
+```
+
+You can manually change the paht of the images you want to detect in the `live.py`.
 
 

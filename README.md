@@ -48,7 +48,7 @@ sh data/scripts/VOC2012.sh # <directory>
 ```
 
 ## Training SSD
-- First download the fc-reduced VGG-16 PyTorch base network weights at:              https://s3.amazonaws.com/amdegroot-models/vgg16_reducedfc.pth
+- First download the fc-reduced VGG-16 PyTorch base network weights at:              https://1drv.ms/u/s!Asxoawb369ilchFdNBSY34T2O-8?e=zapfne
 - Download the file in the `ssd_vgg/weights` dir
 
 
@@ -64,7 +64,7 @@ python train.py
 
 
 ## Evaluation
-- If you don't want to spend time training, you can download the already trained SSD model weights at: 
+- If you don't want to spend time training, you can download the already trained SSD model weights at: https://1drv.ms/u/s!Asxoawb369ilcyI29ztq-vfpyAg?e=5g617p
 - Download the file in the `ssd_vgg/weights` dir
 - To evaluate a trained network:
 
